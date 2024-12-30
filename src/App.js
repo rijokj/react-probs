@@ -5,16 +5,17 @@ import Product from './store/component/Product'
 import Footer from './store/component/Footer'
 import Counter from './useState/component/Counter'
 import Fetch from './fetch/Fetch'
+import NewNewCounter from './useEffect/NewNewCounter'
 import './app.css'
 function App() {
       {
         /* dont copy green codes */
       }
 
-  // const person = [
-  //   { name: 'rijo', age: 22 },
-  //   { name: 'ben', age: 24 },
-  // ]
+  const person = [
+    { name: 'rijo', age: 22 },
+    { name: 'ben', age: 24 },
+  ]
   // const productItems = [
   //   {
   //     id: 1,
@@ -41,12 +42,13 @@ function App() {
 
       {/* dont copy green codes */}
 
-      {/* <Props details = {person} />
-      <Header />
-      <Product details={productItems} />
-      <Footer /> */}
+      {/* <Props details = {person} /> */}
+      {/* <Header /> */}
+      {/* <Product details={productItems} /> */}
+      {/* <Footer /> */}
       {/* <Counter /> */}
-      <Fetch />
+      {/* <Fetch /> */}
+      <NewNewCounter />
     </div>
   )
 }
