@@ -4,6 +4,7 @@ import Header from './store/component/header'
 import Product from './store/component/Product'
 import Footer from './store/component/Footer'
 import Counter from './useState/component/Counter'
+import Fetch from './fetch/Fetch'
 import './app.css'
 function App() {
       {
@@ -44,7 +45,8 @@ function App() {
       <Header />
       <Product details={productItems} />
       <Footer /> */}
-      <Counter />
+      {/* <Counter /> */}
+      <Fetch />
     </div>
   )
 }
